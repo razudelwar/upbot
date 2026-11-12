@@ -225,8 +225,8 @@ COOKIES_FILE       = Path(os.environ.get("COOKIES_FILE", f"{BOT_NAME}_cookies.tx
 HTTP_CONFIG_FILE   = Path(os.environ.get("HTTP_CONFIG_FILE", f"{BOT_NAME}_http_config.json"))
 
 # ---- Speed & Concurrency Tuning (fast without exhausting bot/source) --
-MAX_DOWNLOADS      = int(os.environ.get("MAX_DOWNLOADS", "10"))      # concurrent downloads (aria2/yt-dlp)
-MAX_UPLOADS        = int(os.environ.get("MAX_UPLOADS", "5"))        # concurrent uploads to Telegram
+MAX_DOWNLOADS      = int(os.environ.get("MAX_DOWNLOADS", "4"))      # concurrent downloads (aria2/yt-dlp)
+MAX_UPLOADS        = int(os.environ.get("MAX_UPLOADS", "4"))        # concurrent uploads to Telegram
 UPLOAD_SESSIONS    = int(os.environ.get("UPLOAD_SESSIONS", "1"))    # 1 persistent session avoids ImportBotAuth FloodWait!
 UPLOAD_WORKERS     = int(os.environ.get("UPLOAD_WORKERS", "100"))    # parallel 512 KB parts per upload
 ARIA2_CONNS        = int(os.environ.get("ARIA2_CONNS", "100"))       # aria2c -x / -s for direct files
