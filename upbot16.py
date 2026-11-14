@@ -210,7 +210,7 @@ BOT_NAME   = os.environ.get("BOT_NAME", "upbot16")
 BOT_HANDLE = os.environ.get("BOT_HANDLE", "@directlink2_bot")
 API_ID     = int(os.environ.get("API_ID", "17074961"))
 API_HASH   = os.environ.get("API_HASH", "f0077a7fb095171c22b0172dc9856b9a")
-BOT_TOKEN  = os.environ.get("BOT_TOKEN", "5120894061:AAHgSduGVEZ2INfRHF5SK3c0Vkk2S4xLebQ")
+BOT_TOKEN  = os.environ.get("BOT_TOKEN", "9250350453:AAGDleh1DO1z5Gr1Yroy9XwmOvgcspl0wXA")
 OWNER_ID   = int(os.environ.get("OWNER_ID", "1081431445"))
 
 # ---- Default Download Headers / Referer / Cookies ---------------------
